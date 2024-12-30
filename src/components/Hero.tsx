@@ -2,23 +2,20 @@ import Image from 'next/image'
 
 export default function Hero() {
   return (
-    <section className="bg-gray-10 dark:bg-gray-800 py-20">
-      <div className="container mx-auto px-6 flex flex-col md:flex-row items-center">
-        <div className="md:w-1/2 mb-8 md:mb-0">
-          <p className="text-xl mb-6">ポートフォリオサイトにお越しいただき、ありがとうございます。</p>
-          <p className="text-xl mb-6">ここでは、私が作ったアプリを公開しています。</p>
-        </div>
-        <div className="md:w-1/2 flex justify-center">
-          <Image 
-            src="/images/hero.png" 
-            alt="エンジニアのワークスペース" 
-            width={500} 
-            height={375} 
-            className="rounded-lg shadow-sm"
-          />
-        </div>
+    <section className="relative h-screen flex items-center justify-center">
+      <Image 
+        src="/images/hero.png" 
+        alt="エンジニアのワークスペース"
+        layout="fill"
+        objectFit="cover"
+        quality={100}
+        priority
+      />
+      <div className="absolute inset-0 bg-black opacity-50"></div>
+      <div className="relative z-10 text-center text-white px-4">
+        <h1 className="text-4xl md:text-5xl font-bold mb-4">技術を活かして、少しでもお役に立ちたい</h1>
+        <p className="text-xl md:text-2xl mb-6">日々の学びを活かして、着実に価値のあるものを提供いたします。</p>
       </div>
     </section>
   )
 }
-
