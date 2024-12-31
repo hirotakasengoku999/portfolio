@@ -2,7 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 const projects = [
-  { id: 1, title: 'タスクアプリ', description: 'Next.js 練習のために作りました', image: '/images/taskapp.png', url: 'https://task-d460qi4fv-hirotakasengoku999s-projects.vercel.app/' },
+  { id: 1, title: 'タスクアプリ', description: 'Next.js 練習のために作りました', image: '/images/taskapp.png', url: 'https://task-app-beige-eight.vercel.app/' },
   { id: 2, title: 'プロジェクト2', description: 'プロジェクト2の説明', image: '/placeholder.svg?height=200&width=300', url: ''},
   { id: 3, title: 'プロジェクト3', description: 'プロジェクト3の説明', image: '/placeholder.svg?height=200&width=300', url: '' },
 ]
