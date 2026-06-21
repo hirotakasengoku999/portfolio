@@ -2,9 +2,10 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 const projects = [
-  { id: 1, title: 'タスクアプリ', description: 'Next.js 練習のために作りました', image: '/images/taskapp.png', url: 'https://task-app-beige-eight.vercel.app/' },
-  { id: 2, title: 'markdown blog', description: 'マークダウンでブログ投稿できるアプリ', image: '/images/mdblog.png', url: 'https://markdown-blog-gilt-three.vercel.app/'},
-  { id: 3, title: 'レセプト電算コード検索', description: 'レセプト 医科診療マスターを検索するアプリ', image: '/images/recesearch.png', url: 'https://rece-search.vercel.app/' },
+  { id: 1, title: '柔術道着サイト', description: '知り合いからのご依頼で作成した柔術道着サイト', image: '/images/gi.png', url: 'https://gi-shop-tau.vercel.app/' },
+  { id: 2, title: 'タスクアプリ', description: 'Next.js 練習のために作りました', image: '/images/taskapp.png', url: 'https://task-app-beige-eight.vercel.app/' },
+  { id: 3, title: 'markdown blog', description: 'マークダウンでブログ投稿できるアプリ', image: '/images/mdblog.png', url: 'https://markdown-blog-gilt-three.vercel.app/'},
+  { id: 4, title: 'レセプト電算コード検索', description: 'レセプト 医科診療マスターを検索するアプリ', image: '/images/recesearch.png', url: 'https://rece-search.vercel.app/' },
 ]
 
 export default function Projects() {
